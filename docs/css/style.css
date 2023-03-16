@@ -1,0 +1,177 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.header {
+    background: #294f6e;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #294f6e;
+    color: 	#c0c0c0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: #6999c0;
+}
+.dropdown-menu a:hover {
+    background-color: #294f6e;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 0 5px 5px 0;
+}
+
+.forsearch {
+    background-color: #009b86;
+    color: rgb(255, 255, 255);
+}
+
+.headname {
+    margin: 0.5em;
+    text-align: center;
+}
+
+/*курсив по цетнру*/
+.heading {
+    font-style: italic;
+    text-align: center;
+}
+
+.description{
+    font-style: italic;
+}
+
+p{
+    text-indent: 3.5em;
+}
+.indent{
+    margin-left: 3.5em;
+}
+
+/*---------------------------------------
+  CARD GRID PROPERTY             
+-----------------------------------------*/
+.card-title {
+	font-size: 22px;
+	color: #3b404f;
+	font-weight: 700;
+}
+
+.card-body {
+	padding: 7px;
+}
+
+.card-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.card-footer {
+    text-align: center;
+	border: 0;
+	padding: 20px 0 0 0;
+}
+
+.card-shadow{
+    box-shadow: 8px 4px 11px 2px #545454;
+}
+
+.link-incard {
+	font-size: 14px;
+	color: #3b404f;
+	font-weight: 400;
+}
+.btn-color  {
+	background:  #294f6e;
+	color:#fff;
+    padding: 5px 25px;
+    font-weight: 800;
+}
+.btn-color:hover{
+    background: #6999c0;
+    color:rgb(32, 54, 72);
+}
+/* стили для содержимого страниц, в т.ч. эпиграфов */
+.epigraph{
+   text-align: right;
+   font-style: italic;
+   font-size: 14px; 
+   margin: 2em;
+}
+/*стили картинок в тексте*/
+.content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.img-size{
+    height: 480px;
+}
+.card-img-top{
+    height: 300px;
+}
+.figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+/* Стили кнопи "Назад" */
+.history-hide {
+    display: none!important;
+}
+#history-button {
+    background: #61a229;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    padding: .5em 1em;
+    display: inline-block;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+/* Стили для системы поиска */
+.searchResults{
+
+}
+
+/*---------------------------------------
+  EPOS PROPERTY             
+-----------------------------------------*/
+.eposforcard {
+    padding: 50px 0px 60px 0;
+    
+}
+.imgforcardepos {
+    height: auto;
+}
+
+.runaname{
+    margin-left: 75px;
+}
+
+.linkforcardepos{
+    text-decoration: none;
+}
+
+.linkforcardepos:hover{
+    background: #48fff6; 
+    color: rgba(0, 0, 0, 0)FF;
+    transition: all 0.2s ease;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 0 6px 6px 0;
+    box-shadow: 3px 2px 11px 1px #000000;
+}
