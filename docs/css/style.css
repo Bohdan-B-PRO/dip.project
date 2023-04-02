@@ -16,6 +16,9 @@ body {
     color: 	#c0c0c0;
     font-size: 14px;
     text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
 }
 
 .dropdown-menu {
@@ -34,6 +37,7 @@ body {
     background-color: #009b86;
     color: rgb(255, 255, 255);
 }
+
 
 .headname {
     margin: 0.5em;
@@ -59,6 +63,10 @@ p{
 
 .container{
     width: 1024px,auto;
+}
+.main{
+    margin-bottom: 40px;
+    padding: 16px;
 }
 /*---------------------------------------
   CARD GRID PROPERTY             
@@ -266,7 +274,7 @@ p{
 }
   
 .myBeautifulTeam-text-info {
-    padding: 100px;
+    padding: 25px;
     color: rgb(0, 0, 0);
     font-size: 28px;
     font-weight: 400;
@@ -398,6 +406,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
 }
 .overlay .flex-popap .popap {
     position: relative;
@@ -411,7 +420,7 @@ p{
     position: absolute;
     top: 10px;
     right: 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -422,7 +431,6 @@ p{
 .li-none{
     list-style-type: none;
 }
-
 
 /*---------------------------------------
       VIDEO ABOUT           
@@ -438,18 +446,13 @@ p{
     height: auto;
 }
 
-*::-webkit-media-controls-start-playback-button {
-    display: none!important;
-    -webkit-appearance: none;
-  }
-
 /*-----------------------------------------
    BTN UP
 -----------------------------------------*/
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 30px;
     z-index: 99;
     border: none;
@@ -477,12 +480,12 @@ p{
 }
 
 .btn-about {
-    width: 90px;
-    height: 40px;
+    width: 80px;
+    height: 5px;
     color: #c0c0c0;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
-    padding-bottom: 40px;
+    padding-bottom: 37px;
 }
 
 .btn-about:hover{
@@ -491,7 +494,6 @@ p{
 
 .forbtn-adout{
     display: inline-flex;
-    padding-top: 0px;
 } 
 
 /*------------------------------*/
@@ -504,8 +506,8 @@ p{
         text-align: center;
     }
     .myBeautifulTeam-info{
-        width: 176px;
-        height: 62px;
+        width: 215px;
+        height: 84px;
         margin: 20px;
         padding: 10px 15px;
     }
@@ -515,6 +517,34 @@ p{
     .Team-text-info{
         font-size: 18px;
    }
+   .myBeautifulTeam-text{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .social-icon-link{
+        margin: 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .myBeautifulTeam-info{
+        width: 175px;
+        height: 84px;
+        margin: 20px;
+        padding: 10px 15px;
+    }
+    .myBeautifulTeam-text-info {
+        font-size: 22px;
+    }
+    .Team-text-info{
+        font-size: 14px;
+   }
+   .myBeautifulTeam-text{
+        font-size: 11px;
+    }
 }
 @media screen and (max-width: 991px){
     .myBeautifulTeam-text-info {
@@ -529,7 +559,26 @@ p{
         margin: 20px;
         padding: 10px 15px;
     }
-   
+    .myBeautifulTeam-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .myBeautifulTeam-text-info {
+        font-size: 22px;
+    }
+    .Team-text-info{
+        font-size: 16px;
+    }
+    .myBeautifulTeam-info{
+        width: 330px;
+        height: 62px;
+        margin: 20px;
+        padding: 10px 15px;
+    }
+    .myBeautifulTeam-text{
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -537,8 +586,6 @@ p{
         font-size: 18px;
     }
     .myBeautifulTeam-info{
-        width: 300px;
-        height: 62px;
         margin: 20px;
         padding: 10px 15px;
     }
@@ -546,11 +593,14 @@ p{
         width: auto;
     }
     .Team-text-info{
-        font-size: 12px;
+        font-size: 16px;
     }  
     .myBeautifulTeam-thumb{
         display: flex;
         justify-content: center;
     }
-
+    .myBeautifulTeam-text{
+        
+        padding: 5px;
+    }
 }
